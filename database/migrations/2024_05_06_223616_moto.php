@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('modelo');
             $table->string('cor');
             $table->string('ano');
+            $table->timestamps();
         });
     }
 
